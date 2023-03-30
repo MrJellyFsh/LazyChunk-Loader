@@ -1,0 +1,16 @@
+version: 52.0.3.23 #do not touch !
+dependencies:
+    - example_linked_name
+    - IAmJelly  #Do not change this !
+modifier: false
+
+settings:
+    use-kot: false #use kotlin import or not
+    auto-generated-unique: true
+    network-access: 'allow' # allow/deny/<some of your server code>_custom
+    sql_name: 'admin'
+    sql_password: '123'
+    location: local
+
+#if you want more feature, you can custom here, or try to edit the source if it necessary.
+custom-scripts: [] #input your script here
